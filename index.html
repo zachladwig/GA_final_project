@@ -7,7 +7,7 @@
 <body>
   <nav class="navbar bg-faded navbar-toggleable-md">
       <div class="navbar-nav bg-secondary mr-auto">
-        <a class="nav-item nav-link"> Good Day or Bad Day?</a>
+        <a class="navbar-brand nav-link"> Good Day or Bad Day?</a>
       </div>
       <div class="dropdown show">
         <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -17,17 +17,13 @@
         </div>
       </div>
       <form class="form-inline my-2 my-lg-0">
-        <input class="form-control" type="date" value="2011-08-19">
+        <input id="search" class="form-control mr-sm-2" type="search" placeholder="Key Words" aria-label="Search">
+        <input id="date" class="form-control mr-sm-2" type="date" value="2018-04-01">
+        <button id="submit" type="submit" class="btn btn-primary">Submit</button>
       </form>
-      <form class="form-inline my-2 my-lg-0">
-        <input class="form-control" type="date" value="2011-08-19">
-      </form>
-      <!-- <div class="form-group row"> -->
-  <!-- <label for="example-date-input" class="col-2 col-form-label">Date</label>
-  <div class="col-10">
-    <input class="form-control" type="date" value="2011-08-19" id="example-date-input">
-  </div>
-</div> -->
+      <!-- <form class="form-inline my-2 my-lg-0">
+        <input id="enddate" class="form-control" type="date" value="2018-04-15">
+      </form> -->
   </nav>
 
   <div class="container">
