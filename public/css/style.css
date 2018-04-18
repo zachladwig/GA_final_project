@@ -1,0 +1,75 @@
+
+
+.title {
+  font-size: 20px;
+  text-align: center;
+}
+
+
+.emoji {
+  display: block;
+  height: 100px;
+  width: 100px;
+  margin: 0 auto;
+}
+
+.searchTerm {
+  font-size: 14px;
+  text-align: center;
+}
+
+
+/* Individual Article Styling */
+.article {
+  border-bottom: 1px solid #ccc;
+  transition: 0.2s all;
+}
+
+.article:hover {
+  padding: 0 2%;
+  background-color: #eee;
+}
+
+.articleContent {
+  font-size: 10px;
+  width: 70%;
+  float: left;
+}
+
+.articleTime {
+  font-size: 10px;
+  color: "#939393"
+}
+
+.articleEmoji {
+  display: inline;
+  height: 20px;
+  width: 20px;
+}
+
+.summaryContainer {
+  margin-bottom: 20px;
+}
+
+
+/*.article .featuredImage {
+  width: 12%;
+  float: left;
+  margin: 1.5%;
+  max-width: 60px;
+}
+
+.article .featuredImage img {
+  max-width: 100%;
+  border-radius: 50px;
+}*/
+
+/*.article .articleContent {
+  width: 70%;
+  float: left;
+  font-size: 14px;
+}*/
+
+/*.article .articleContent a {
+  text-decoration: none;
+}*/

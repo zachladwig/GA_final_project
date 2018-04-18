@@ -10,7 +10,6 @@ $(document).ready(function() {
   getSources();
   dbSearches.get()
   $("#submit").on('click', function(event) {
-    console.log('hi zach')
     $(".newsSource").remove();
     let date = $("#date").val();
     let search = $("#search").val();
